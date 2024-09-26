@@ -59,9 +59,11 @@ body {
     ),
     linear-gradient(90deg, #00bfff, #00bfff);
 }
-.flowers {
-  position: relative;
-  transform: scale(0.9);
+@media (max-width: 768px) {
+  .flower {
+    width: 8vmin; /* Increase size for better visibility */
+    height: 8vmin;
+  }
 }
 .flower {
   position: absolute;
